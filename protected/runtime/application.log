@@ -1,0 +1,396 @@
+2011/12/09 12:00:59 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "_sendResponse".' in /Applications/MAMP/htdocs/framework/base/CComponent.php:269
+Stack trace:
+#0 /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php(12): CComponent->__call('_sendResponse', Array)
+#1 /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php(12): ApiController->_sendResponse(200, '[{"id":"1","nam...')
+#2 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(50): ApiController->actionGet()
+#3 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): CController->run('get')
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('api/get')
+#8 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php/api/get
+2011/12/09 12:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/54".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/54')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/54
+2011/12/09 12:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 12:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:13:52 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Applications/MAMP/htdocs/framework/web/CController.php:328
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): CController->run('put')
+#4 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('api/put')
+#5 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/contacts
+2011/12/09 12:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:13:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Applications/MAMP/htdocs/framework/web/CController.php:328
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): CController->run('put')
+#4 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('api/put')
+#5 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#6 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/contacts
+2011/12/09 12:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/176".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/176')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/176
+2011/12/09 12:21:48 [error] [php] json_decode() expects parameter 1 to be string, array given (/Applications/MAMP/htdocs/framework/web/helpers/CJSON.php:327)
+Stack trace:
+#0 unknown(0): ApiController->actionPut()
+#1 /Applications/MAMP/htdocs/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs()
+#2 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#3 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams()
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(278): ApiController->runAction()
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(257): ApiController->runActionWithFilters()
+#6 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): ApiController->run()
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#8 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CWebApplication->run()
+REQUEST_URI=/contacts/176
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (20)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 15:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 15:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/18FD8934-3E43-4252-9BBF-5105B0411D82".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/18FD89...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/18FD8934-3E43-4252-9BBF-5105B0411D82
+2011/12/09 15:47:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 15:47:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/78D9B080-1841-426C-9D32-40C3365A1DEF".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/78D9B0...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/78D9B080-1841-426C-9D32-40C3365A1DEF
+2011/12/09 15:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 15:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/8326FB19-12E4-4716-93FE-BF5C8F6DCC5B".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/8326FB...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/8326FB19-12E4-4716-93FE-BF5C8F6DCC5B
+2011/12/09 15:51:16 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (36)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 16:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 16:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/F463C87B-9213-49F6-A79B-01DD32A26276".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/F463C8...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/F463C87B-9213-49F6-A79B-01DD32A26276
+2011/12/09 16:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 16:38:29 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (43)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 16:39:27 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (43)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 16:42:04 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (43)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 16:42:14 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (43)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 17:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 17:28:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 17:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 17:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 17:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts
+2011/12/09 21:31:28 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (43)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 21:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/C627624B-92F5-46E9-811C-7C26A4ADEC20".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('contacts/C62762...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/contacts/C627624B-92F5-46E9-811C-7C26A4ADEC20
+2011/12/09 21:41:34 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (45)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/09 22:11:30 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in /Applications/MAMP/htdocs/perso/testspine/protected/controllers/ApiController.php (45)
+in /Applications/MAMP/htdocs/perso/testspine/index.php (13)
+2011/12/10 11:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "financialreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('financialreport...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/financialreport/index
+2011/12/10 11:05:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "financialreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('financialreport...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/financialreport/index
+2011/12/10 11:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "orderreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('orderreport/ind...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/orderreport/index
+2011/12/10 11:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "menu/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('menu/index')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/menu/index
+2011/12/10 11:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "order/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('order/index')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/order/index
+2011/12/10 11:05:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "menu/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('menu/index')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/menu/index
+2011/12/10 11:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "orderreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('orderreport/ind...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/orderreport/index
+2011/12/10 11:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "financialreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('financialreport...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/financialreport/index
+2011/12/10 11:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "administration/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('administration/...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/administration/index
+2011/12/10 11:06:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "orderreport/index".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('orderreport/ind...')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/orderreport/index
+2011/12/10 11:33:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "order/update/8".' in /Applications/MAMP/htdocs/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController('order/update/8')
+#1 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/perso/testspine/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/order/update/8
+2011/12/15 09:34:08 [error] [php] include(Contac.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php(16): spl_autoload_call()
+#1 unknown(0): ApiController->actionGet()
+#2 /Applications/MAMP/htdocs/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs()
+#3 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(278): ApiController->runAction()
+#6 /Applications/MAMP/htdocs/framework/web/CController.php(257): ApiController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): ApiController->run()
+#8 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/perso/testSpine/index.php(13): CWebApplication->run()
+REQUEST_URI=/perso/testSpine/contact
+in /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php (16)
+in /Applications/MAMP/htdocs/perso/testSpine/index.php (13)
+2011/12/16 10:53:13 [error] [php] include(Gi.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php(16): spl_autoload_call()
+#1 unknown(0): ApiController->actionGet()
+#2 /Applications/MAMP/htdocs/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs()
+#3 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(278): ApiController->runAction()
+#6 /Applications/MAMP/htdocs/framework/web/CController.php(257): ApiController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): ApiController->run()
+#8 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/perso/testSpine/index.php(13): CWebApplication->run()
+REQUEST_URI=/perso/testSpine/gii
+in /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php (16)
+in /Applications/MAMP/htdocs/perso/testSpine/index.php (13)
+2011/12/16 10:53:59 [error] [php] include(Gi.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php(16): spl_autoload_call()
+#1 unknown(0): ApiController->actionGet()
+#2 /Applications/MAMP/htdocs/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs()
+#3 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(278): ApiController->runAction()
+#6 /Applications/MAMP/htdocs/framework/web/CController.php(257): ApiController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): ApiController->run()
+#8 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/perso/testSpine/index.php(13): CWebApplication->run()
+REQUEST_URI=/perso/testSpine/gii
+in /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php (16)
+in /Applications/MAMP/htdocs/perso/testSpine/index.php (13)
+2011/12/16 10:54:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testspine.Content' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Content`.
+in /Applications/MAMP/htdocs/perso/testSpine/index.php (13)
+2011/12/16 12:29:32 [error] [php] include(Header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/MAMP/htdocs/framework/YiiBase.php:421)
+Stack trace:
+#0 /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php(16): spl_autoload_call()
+#1 unknown(0): ApiController->actionGet()
+#2 /Applications/MAMP/htdocs/framework/web/actions/CAction.php(104): ReflectionMethod->invokeArgs()
+#3 /Applications/MAMP/htdocs/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 /Applications/MAMP/htdocs/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/framework/web/CController.php(278): ApiController->runAction()
+#6 /Applications/MAMP/htdocs/framework/web/CController.php(257): ApiController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(277): ApiController->run()
+#8 /Applications/MAMP/htdocs/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/perso/testSpine/index.php(13): CWebApplication->run()
+REQUEST_URI=/headers
+in /Applications/MAMP/htdocs/perso/testSpine/protected/controllers/ApiController.php (16)
+in /Applications/MAMP/htdocs/perso/testSpine/index.php (13)

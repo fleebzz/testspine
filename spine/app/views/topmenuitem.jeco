@@ -1,0 +1,3 @@
+<div class="topmenuitem">
+	<%= @name %>
+</div>

@@ -1,0 +1,28 @@
+<header>
+  <% if @name?: %>
+    <a class="save">Save</a>
+    <a class="delete">Delete</a>
+  <% else: %>
+    <a class="cancel">Cancel</a>
+  <% end %>
+</header>
+
+<div class="content">
+  <form>
+    <label>
+      <span>Name</span>
+      <input type="text" name="name" value="<%= @name %>">
+    </label>
+  
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" value="<%= @email %>">
+    </label>  
+    
+    <% if @name?: %>
+      <button>Save</button>
+    <% else: %>
+      <button>Create</button>
+    <% end %>
+  </form>
+</div>
